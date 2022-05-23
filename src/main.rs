@@ -11,7 +11,7 @@ fn main() {
     
     println!("{}", trie);
 
-    assert_eq!(trie.search("21", vec!["21","21e8"]))
+    assert_eq!(trie.search("21"), vec!["21","21e8"]);
 
     trie.insert("21e8")
 
